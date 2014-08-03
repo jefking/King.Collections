@@ -42,10 +42,10 @@
         [Test]
         public void BubbleSort()
         {
-            ICollection sortedCol = unordered.BubbleSort();
-            int[] sorted = new int[sortedCol.Count];
+            var sortedCol = unordered.BubbleSort();
+            var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
-            for (int index = 0; index < sorted.Length; index++)
+            for (var index = 0; index < sorted.Length; index++)
             {
                 if (ordered[index] != sorted[index])
                 {
@@ -57,10 +57,10 @@
         [Test]
         public void QuickSort()
         {
-            ICollection sortedCol = unordered.QuickSort();
-            int[] sorted = new int[sortedCol.Count];
+            var sortedCol = unordered.QuickSort();
+            var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
-            for (int index = 0; index < sorted.Length; index++)
+            for (var index = 0; index < sorted.Length; index++)
             {
                 if (ordered[index] != sorted[index])
                 {
@@ -72,10 +72,10 @@
         [Test]
         public void SelectionSort()
         {
-            ICollection sortedCol = unordered.SelectionSort();
-            int[] sorted = new int[sortedCol.Count];
+            var sortedCol = unordered.SelectionSort();
+            var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
-            for (int index = 0; index < sorted.Length; index++)
+            for (var index = 0; index < sorted.Length; index++)
             {
                 if (ordered[index] != sorted[index])
                 {
@@ -87,10 +87,10 @@
         [Test]
         public void ShellSort()
         {
-            ICollection sortedCol = unordered.ShellSort();
-            int[] sorted = new int[sortedCol.Count];
+            var sortedCol = unordered.ShellSort();
+            var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
-            for (int index = 0; index < sorted.Length; index++)
+            for (var index = 0; index < sorted.Length; index++)
             {
                 if (ordered[index] != sorted[index])
                 {
@@ -99,6 +99,5 @@
             }
         }
         #endregion
-
     }
 }

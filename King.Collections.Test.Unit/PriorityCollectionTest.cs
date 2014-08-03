@@ -44,7 +44,7 @@
         [Test]
         public void PriorityCollectionMinMax()
         {
-            PriorityCollection<double> pc = new PriorityCollection<double>();
+            var pc = new PriorityCollection<double>();
             pc.Add(123.123);
             pc.Add(999.999);
             pc.Add(111.111);
@@ -56,7 +56,7 @@
         [Test]
         public void PriorityCollectionICollection()
         {
-            PriorityCollection<DateTime> pc = new PriorityCollection<DateTime>();
+            var pc = new PriorityCollection<DateTime>();
             pc.Add(DateTime.Now);
             pc.Add(DateTime.MaxValue);
             pc.Add(DateTime.MinValue);
