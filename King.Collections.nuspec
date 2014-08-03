@@ -15,11 +15,11 @@
     <releaseNotes>Initial Release</releaseNotes>
     <copyright>Jef King</copyright>
     <language>en-US</language>
-    <tags>Collection Collections Sort Sorting Bubble Quick Selection Shell</tags>
+    <tags>Collection Collections Sort Sorting Bubble Quick Selection Shell Priority Tree Node FiFo</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
   </metadata>
-  <frameworkAssemblies>
-    <frameworkAssembly assemblyName="System" targetFramework="" />
-  </frameworkAssemblies>
   <files>
     <file src="King.Collections\bin\Release\King.Collections.dll" target="lib\net451\King.Collections.dll" />
   </files>
