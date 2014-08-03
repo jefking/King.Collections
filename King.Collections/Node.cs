@@ -38,7 +38,7 @@
         /// <param name="data">Data</param>
         internal Node(int key, T data)
         {
-            if (0 < key)
+            if (0 > key)
             {
                 throw new ArgumentOutOfRangeException("Invalid key, below zero.");
             }
