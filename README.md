@@ -1,7 +1,10 @@
 Additional collections, and sorting for .NET.
+
+[What is the Fastest?](http://stackoverflow.com/questions/1753278/what-is-the-fastest-sorting-algorithm-in-c)
+
 ## Sorts
 + [Shellsort](http://en.wikipedia.org/wiki/Shellsort)
-+ [Quicksort](http://en.wikipedia.org/wiki/Quicksort)
++ [Quicksort](http://en.wikipedia.org/wiki/Quicksort) - ~Fastest
 + [Selection](http://en.wikipedia.org/wiki/Selection_sort)
 + [Bubble](http://en.wikipedia.org/wiki/Bubble_sort)
 
