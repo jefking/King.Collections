@@ -50,6 +50,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="ExtensionMethodsTest.cs" />
     <Compile Include="FirstInFirstOutTest.cs" />
     <Compile Include="PriorityCollectionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
