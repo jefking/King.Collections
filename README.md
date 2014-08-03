@@ -8,4 +8,4 @@ Additional collections, and sorting for .NET.
 ## Collections
 + [First In First Out](http://en.wikipedia.org/wiki/FIFO#Computer_science)
 + [Priority Collection](http://en.wikipedia.org/wiki/Priority_queue)
-+ [Tree](http://en.wikipedia.org/wiki/Tree_(data_structure)
++ [Tree](http://en.wikipedia.org/wiki/Tree_%28data_structure%29)
