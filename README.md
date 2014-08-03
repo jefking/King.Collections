@@ -6,6 +6,6 @@ Additional collections, and sorting for .NET.
 + [Bubble](http://en.wikipedia.org/wiki/Bubble_sort)
 
 ## Collections
-+ First In First Out
-+ Priority
-+ Tree
++ [First In First Out](http://en.wikipedia.org/wiki/FIFO#Computer_science)
++ [Priority Collection](http://en.wikipedia.org/wiki/Priority_queue)
++ [Tree](http://en.wikipedia.org/wiki/Tree_(data_structure)
