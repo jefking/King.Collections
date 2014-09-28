@@ -12,12 +12,12 @@
         /// <summary>
         /// Queue
         /// </summary>
-        private readonly Queue<T> queue = null;
+        protected readonly Queue<T> queue = null;
 
         /// <summary>
         /// Lock
         /// </summary>
-        private readonly object safetyLock = new object();
+        protected readonly object safetyLock = new object();
         #endregion
 
         #region Constructors
@@ -34,7 +34,7 @@
         /// <summary>
         /// Gets current Count
         /// </summary>
-        public int Count
+        public virtual int Count
         {
             get
             {
@@ -51,7 +51,7 @@
         /// Dequeue
         /// </summary>
         /// <returns>Item</returns>
-        public T Dequeue()
+        public virtual T Dequeue()
         {
             lock (this.safetyLock)
             {
@@ -63,7 +63,7 @@
         /// Enqueue
         /// </summary>
         /// <param name="item">Item</param>
-        public void Enqueue(T item)
+        public virtual void Enqueue(T item)
         {
             lock (this.safetyLock)
             {

@@ -14,11 +14,11 @@
         /// </summary>
         /// <param name="collection">Collection</param>
         /// <returns>Sorted Collection</returns>
-        public static ICollection BubbleSort(this ICollection collection)
+        public static IEnumerable BubbleSort(this ICollection collection)
         {
             if (null == collection)
             {
-                return collection;
+                return null;
             }
             if (0 == collection.Count)
             {
@@ -49,11 +49,11 @@
         /// </summary>
         /// <param name="collection">Collection</param>
         /// <returns>Sorted Collection</returns>
-        public static ICollection QuickSort(this ICollection collection)
+        public static IEnumerable QuickSort(this ICollection collection)
         {
             if (null == collection)
             {
-                return collection;
+                return null;
             }
             if (0 == collection.Count)
             {
@@ -142,11 +142,11 @@
         /// </summary>
         /// <param name="collection">Collection</param>
         /// <returns>Sorted Collection</returns>
-        public static ICollection SelectionSort(this ICollection collection)
+        public static IEnumerable SelectionSort(this ICollection collection)
         {
             if (null == collection)
             {
-                return collection;
+                return null;
             }
             if (0 == collection.Count)
             {
@@ -192,11 +192,11 @@
         /// </summary>
         /// <param name="collection">Collection</param>
         /// <returns>Sorted Collection</returns>
-        public static ICollection ShellSort(this ICollection collection)
+        public static IEnumerable ShellSort(this ICollection collection)
         {
             if (null == collection)
             {
-                return collection;
+                return null;
             }
             if (0 == collection.Count)
             {

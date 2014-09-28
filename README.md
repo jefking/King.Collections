@@ -1,4 +1,4 @@
-Additional collections, and sorting for .NET.
+Additional generic collections, and sorting for .NET.
 
 [What is the Fastest?](http://stackoverflow.com/questions/1753278/what-is-the-fastest-sorting-algorithm-in-c)
 

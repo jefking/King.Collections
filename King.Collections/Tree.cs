@@ -21,7 +21,7 @@
         /// <summary>
         /// Gets the count of objects in the tree.
         /// </summary>
-        public int Count
+        public virtual int Count
         {
             get
             {
@@ -34,7 +34,7 @@
         /// <summary>
         /// Gets a value indicating whether the tree is empty.
         /// </summary>
-        public bool IsEmpty
+        public virtual bool IsEmpty
         {
             get
             {
@@ -47,7 +47,7 @@
         /// </summary>
         /// <param name="key">Key</param>
         /// <returns>Data</returns>
-        public TValue this[TKey key]
+        public virtual TValue this[TKey key]
         {
             get
             {
@@ -66,7 +66,7 @@
         /// </summary>
         /// <param name="key">Key</param>
         /// <param name="data">Data</param>
-        public void Add(TKey key, TValue data)
+        public virtual void Add(TKey key, TValue data)
         {
             if (null == key)
             {
@@ -83,7 +83,7 @@
         /// </summary>
         /// <param name="key">Key</param>
         /// <returns>Value</returns>
-        public TValue Find(TKey key)
+        public virtual TValue Find(TKey key)
         {
             if (null == key)
             {
@@ -98,7 +98,7 @@
         /// <summary>
         /// Clear
         /// </summary>
-        public void Clear()
+        public virtual void Clear()
         {
             this.head = null;
         }

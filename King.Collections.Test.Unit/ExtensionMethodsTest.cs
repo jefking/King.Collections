@@ -42,7 +42,7 @@
         [Test]
         public void BubbleSort()
         {
-            var sortedCol = unordered.BubbleSort();
+            var sortedCol = unordered.BubbleSort() as ICollection;
             var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
             for (var index = 0; index < sorted.Length; index++)
@@ -57,7 +57,7 @@
         [Test]
         public void QuickSort()
         {
-            var sortedCol = unordered.QuickSort();
+            var sortedCol = unordered.QuickSort() as ICollection;
             var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
             for (var index = 0; index < sorted.Length; index++)
@@ -72,7 +72,7 @@
         [Test]
         public void SelectionSort()
         {
-            var sortedCol = unordered.SelectionSort();
+            var sortedCol = unordered.SelectionSort() as ICollection;
             var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
             for (var index = 0; index < sorted.Length; index++)
@@ -87,7 +87,7 @@
         [Test]
         public void ShellSort()
         {
-            var sortedCol = unordered.ShellSort();
+            var sortedCol = unordered.ShellSort() as ICollection;
             var sorted = new int[sortedCol.Count];
             sortedCol.CopyTo(sorted, 0);
             for (var index = 0; index < sorted.Length; index++)

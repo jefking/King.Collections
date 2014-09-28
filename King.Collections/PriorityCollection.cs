@@ -15,12 +15,12 @@
         /// <summary>
         /// Internal Data Type
         /// </summary>
-        private readonly List<TStored> data;
+        protected readonly List<TStored> data;
 
         /// <summary>
         /// Locking, for synchronization
         /// </summary>
-        private readonly object locker = new object();
+        protected readonly object locker = new object();
         #endregion
 
         #region Constructors
@@ -61,7 +61,7 @@
         /// <summary>
         /// Gets Peek at Min Item
         /// </summary>
-        public TStored Min
+        public virtual TStored Min
         {
             get
             {
@@ -75,7 +75,7 @@
         /// <summary>
         /// Gets Peek at Max Item
         /// </summary>
-        public TStored Max
+        public virtual TStored Max
         {
             get
             {
@@ -89,7 +89,7 @@
         /// <summary>
         /// Gets the Count
         /// </summary>
-        public int Count
+        public virtual int Count
         {
             get
             {
@@ -103,7 +103,7 @@
         /// <summary>
         /// Gets a value indicating whether the collection is read only
         /// </summary>
-        public bool IsReadOnly
+        public virtual bool IsReadOnly
         {
             get
             {
@@ -120,7 +120,7 @@
         /// Sort overhead is implemented on Add
         /// </remarks>
         /// <param name="item">Item</param>
-        public void Push(TStored item)
+        public virtual void Push(TStored item)
         {
             lock (this.locker)
             {
@@ -136,7 +136,7 @@
         /// Pop
         /// </summary>
         /// <returns>Item</returns>
-        public TStored Pop()
+        public virtual TStored Pop()
         {
             lock (this.locker)
             {
@@ -158,7 +158,7 @@
         /// Get Enumerator
         /// </summary>
         /// <returns>Enumerator</returns>
-        public IEnumerator<TStored> GetEnumerator()
+        public virtual IEnumerator<TStored> GetEnumerator()
         {
             lock (this.locker)
             {
@@ -186,7 +186,7 @@
         /// Add
         /// </summary>
         /// <param name="item">Item</param>
-        public void Add(TStored item)
+        public virtual void Add(TStored item)
         {
             this.Push(item);
         }
@@ -194,7 +194,7 @@
         /// <summary>
         /// Clear
         /// </summary>
-        public void Clear()
+        public virtual void Clear()
         {
             lock (this.locker)
             {
@@ -210,7 +210,7 @@
         /// </summary>
         /// <param name="item">Item</param>
         /// <returns>Contains</returns>
-        public bool Contains(TStored item)
+        public virtual bool Contains(TStored item)
         {
             lock (this.locker)
             {
@@ -223,7 +223,7 @@
         /// </summary>
         /// <param name="array">Array</param>
         /// <param name="arrayIndex">Array Index</param>
-        public void CopyTo(TStored[] array, int arrayIndex)
+        public virtual void CopyTo(TStored[] array, int arrayIndex)
         {
             lock (this.locker)
             {
@@ -236,7 +236,7 @@
         /// </summary>
         /// <param name="item">Item</param>
         /// <returns>Removed</returns>
-        public bool Remove(TStored item)
+        public virtual bool Remove(TStored item)
         {
             lock (this.locker)
             {

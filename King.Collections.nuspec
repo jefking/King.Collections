@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>King.Collections</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>King.Collections</title>
     <authors>Jef King</authors>
     <owners>Jef King</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Additional collections, and sorting for .NET.</description>
     <summary>Additional collections, and sorting for .NET.</summary>
-    <releaseNotes>Initial Release</releaseNotes>
+    <releaseNotes>Additional flexibility</releaseNotes>
     <copyright>Jef King</copyright>
     <language>en-US</language>
     <tags>King.Collections Collection Collections Sort Sorting Bubble Quicksort Selection Shellsort Priority Queue Tree Node FiFo</tags>

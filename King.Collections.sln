@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections", "King.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.Test.Unit", "King.Collections.Test.Unit\King.Collections.Test.Unit.csproj", "{7FACC1F6-A98F-4BF4-8D09-D9F3C42E9FC5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25D5A04B-9341-42FD-A888-0CB415F6AB81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FACC1F6-A98F-4BF4-8D09-D9F3C42E9FC5} = {25D5A04B-9341-42FD-A888-0CB415F6AB81}
 	EndGlobalSection
 EndGlobal
