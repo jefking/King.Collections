@@ -12,3 +12,8 @@ Additional generic collections, and sorting for .NET.
 + [First In First Out](http://en.wikipedia.org/wiki/FIFO#Computer_science)
 + [Priority Collection](http://en.wikipedia.org/wiki/Priority_queue)
 + [Tree](http://en.wikipedia.org/wiki/Tree_%28data_structure%29)
+
+## [NuGet](https://www.nuget.org/packages/King.Collections/)
+```
+PM> Install-Package King.Collections
+```
