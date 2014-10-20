@@ -1,17 +1,17 @@
-Additional generic collections, and sorting for .NET.
+### Additional generic collections, and sorting for .NET.
 
-## Collections
+### Collections
 + [First In First Out](http://en.wikipedia.org/wiki/FIFO#Computer_science)
 + [Priority Collection](http://en.wikipedia.org/wiki/Priority_queue)
 + [Tree](http://en.wikipedia.org/wiki/Tree_%28data_structure%29)
 
-## Sorts
+### Sorts
 + [Shellsort](http://en.wikipedia.org/wiki/Shellsort)
 + [Quicksort](http://en.wikipedia.org/wiki/Quicksort)
 + [Selection](http://en.wikipedia.org/wiki/Selection_sort)
 + [Bubble](http://en.wikipedia.org/wiki/Bubble_sort)
 
-## [NuGet](https://www.nuget.org/packages/King.Collections/)
+### [NuGet](https://www.nuget.org/packages/King.Collections/)
 ```
 PM> Install-Package King.Collections
 ```
