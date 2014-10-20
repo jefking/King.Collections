@@ -11,7 +11,7 @@
     <iconUrl>https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Generic Collections & Sorting.</description>
-    <summary>Additional collections, and sorting for .NET.</summary>
+    <summary>Generic Collections & Sorting.</summary>
     <releaseNotes>Additional flexibility</releaseNotes>
     <copyright>Jef King</copyright>
     <language>en-US</language>
