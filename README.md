@@ -1,4 +1,4 @@
-### Additional generic collections, and sorting for .NET.
+### Generic Collections & Sorting
 
 ### Collections
 + [First In First Out](http://en.wikipedia.org/wiki/FIFO#Computer_science)
