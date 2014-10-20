@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/jefking/King.Collections</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Additional collections, and sorting for .NET.</description>
+    <description>Generic Collections & Sorting.</description>
     <summary>Additional collections, and sorting for .NET.</summary>
     <releaseNotes>Additional flexibility</releaseNotes>
     <copyright>Jef King</copyright>
