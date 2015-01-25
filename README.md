@@ -19,6 +19,5 @@ PM> Install-Package King.Collections
 ### [Wiki](https://github.com/jefking/King.Collections/wiki)
 View the wiki to learn how to use this.
 
-### Frameworks
+### Framework
 + 3.5
-+ 4.5

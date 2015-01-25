@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Generic Collections and Sorting.</description>
     <summary>Generic Collections and Sorting.</summary>
-    <releaseNotes>Supporting .NET 3.5, 4.5</releaseNotes>
+    <releaseNotes>Supporting .NET 3.5</releaseNotes>
     <copyright>Jef King</copyright>
     <language>en-US</language>
     <tags>King.Collections Collection Collections Sort Sorting Bubble Quicksort Selection Shellsort Priority Queue Tree Node FiFo</tags>
@@ -21,7 +21,6 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="King.Collections\bin\Release\King.Collections.dll" target="lib\net45\King.Collections.dll" />
-    <file src="King.Collections.35\bin\Release\King.Collections.dll" target="lib\net35\King.Collections.dll" />
+    <file src="King.Collections\bin\Release\King.Collections.dll" target="lib\net35\King.Collections.dll" />
   </files>
 </package>

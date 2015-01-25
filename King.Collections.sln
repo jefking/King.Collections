@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.Test.Unit"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25D5A04B-9341-42FD-A888-0CB415F6AB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.35", "King.Collections.35\King.Collections.35.csproj", "{1B11C7C9-6087-4568-9C00-BDA3C1D3CA7B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFBA1E03-1F0F-488C-AA19-721742BA1875}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
@@ -30,10 +28,6 @@ Global
 		{7FACC1F6-A98F-4BF4-8D09-D9F3C42E9FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FACC1F6-A98F-4BF4-8D09-D9F3C42E9FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FACC1F6-A98F-4BF4-8D09-D9F3C42E9FC5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B11C7C9-6087-4568-9C00-BDA3C1D3CA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B11C7C9-6087-4568-9C00-BDA3C1D3CA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B11C7C9-6087-4568-9C00-BDA3C1D3CA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B11C7C9-6087-4568-9C00-BDA3C1D3CA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

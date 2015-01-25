@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>King.Collections</RootNamespace>
     <AssemblyName>King.Collections</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -40,12 +40,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\src\ExtensionMethods.cs" />
-    <Compile Include="..\src\FirstInFirstOut.cs" />
-    <Compile Include="..\src\Node.cs" />
-    <Compile Include="..\src\PriorityCollection.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="FirstInFirstOut.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="PriorityCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\src\Tree.cs" />
+    <Compile Include="Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
