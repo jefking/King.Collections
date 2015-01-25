@@ -1,7 +1,6 @@
 ﻿namespace King.Collections
 {
     using System;
-    using System.Diagnostics.Contracts;
 
     /// <summary>
     /// Tree
