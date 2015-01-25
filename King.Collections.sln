@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25D5A04B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFBA1E03-1F0F-488C-AA19-721742BA1875}"
 	ProjectSection(SolutionItems) = preProject
+		King.Collections.nuspec = King.Collections.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject
