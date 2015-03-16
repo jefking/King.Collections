@@ -52,7 +52,7 @@
         /// <summary>
         /// Gets Key
         /// </summary>
-        internal int Key
+        internal virtual int Key
         {
             get
             {
@@ -63,7 +63,7 @@
         /// <summary>
         /// Gets Data
         /// </summary>
-        internal T Data
+        internal virtual T Data
         {
             get
             {

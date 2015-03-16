@@ -7,9 +7,7 @@
     /// Priority Collection
     /// </summary>
     /// <typeparam name="TStored">Type Stored</typeparam>
-    public class PriorityCollection<TStored> : IEnumerable<TStored>,
-        ICollection<TStored>,
-        IEnumerable
+    public class PriorityCollection<TStored> : IEnumerable<TStored>, ICollection<TStored>, IEnumerable
     {
         #region Members
         /// <summary>
