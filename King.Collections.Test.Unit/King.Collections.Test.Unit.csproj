@@ -58,9 +58,9 @@
     <Compile Include="TreeTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\King.Collections\King.Collections.csproj">
+    <ProjectReference Include="..\King.Collections.35\King.Collections.35.csproj">
       <Project>{d98b5907-37df-4757-b4f3-49dfb28ad66b}</Project>
-      <Name>King.Collections</Name>
+      <Name>King.Collections.35</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

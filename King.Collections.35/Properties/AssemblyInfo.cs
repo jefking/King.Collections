@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("King.Collections")]
+[assembly: AssemblyTitle("King.Collections.35")]
 [assembly: AssemblyDescription("Additional collections, and sorting for .NET.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
