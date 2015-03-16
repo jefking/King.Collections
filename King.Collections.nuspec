@@ -21,7 +21,7 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="King.Collections\bin\Release\King.Collections.dll" target="lib\net35\King.Collections.dll" />
+    <file src="King.Collections.35\bin\Release\King.Collections.dll" target="lib\net35\King.Collections.dll" />
     <file src="King.Collections.45\bin\Release\King.Collections.dll" target="lib\net45\King.Collections.dll" />
   </files>
 </package>
