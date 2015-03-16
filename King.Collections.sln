@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.35", "King.Collections.35\King.Collections.35.csproj", "{D98B5907-37DF-4757-B4F3-49DFB28AD66B}"
 EndProject
@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.45", "King.Collections.45\King.Collections.45.csproj", "{F16C37D3-9FC2-4DF5-9B19-7211049F2492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "King.Collections.46", "King.Collections.46\King.Collections.46.csproj", "{DD7C02AA-68A8-4AFE-ADA3-1B8992F974DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{F16C37D3-9FC2-4DF5-9B19-7211049F2492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16C37D3-9FC2-4DF5-9B19-7211049F2492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16C37D3-9FC2-4DF5-9B19-7211049F2492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD7C02AA-68A8-4AFE-ADA3-1B8992F974DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7C02AA-68A8-4AFE-ADA3-1B8992F974DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7C02AA-68A8-4AFE-ADA3-1B8992F974DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7C02AA-68A8-4AFE-ADA3-1B8992F974DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
