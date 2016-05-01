@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>King.Collections.Test.Unit</RootNamespace>
     <AssemblyName>King.Collections.Test.Unit</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -56,12 +56,6 @@
     <Compile Include="PriorityCollectionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreeTest.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\King.Collections.35\King.Collections.35.csproj">
-      <Project>{d98b5907-37df-4757-b4f3-49dfb28ad66b}</Project>
-      <Name>King.Collections.35</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
