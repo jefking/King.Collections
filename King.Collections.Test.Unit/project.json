@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0-*",
+  "title": "King.Collections Unit Testing",
+  "description": "King.Collections Class Library",
+  "summary": "Generic Collections and Sorting.",
+  "authors": [ "Jef King" ],
+  "copyright": "Jef King",
+  "owners": [ "Jef King" ],
+  "tags": [ "King.Collections Collection Collections Sort Sorting Bubble Quicksort Selection Shellsort Priority Queue Tree Node FiFo" ],
+  "projectUrl": "https://github.com/jefking/King.Collections",
+  "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
+  "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
+  "releaseNotes": "More .NET versions supported",
+  "language": "en-US",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "King.Collections": "2.0.0-preview",
+    "NUnit": "3.0.0-rc-3"
+  },
+
+  "commands": {
+    "King.Collections.Test.Unit": "King.Collections.Test.Unit"
+  },
+
+  "frameworks": {
+    "net35": { },
+    "net45": { },
+    "net451": { },
+    "net452": { },
+    "net46": { },
+    "net461": { }
+  }
+}

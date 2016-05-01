@@ -6,7 +6,6 @@
     [TestFixture]
     public class FirstInFirstOutTest
     {
-        #region Valid Cases
         [Test]
         public void Constructor()
         {
@@ -73,6 +72,5 @@
             Assert.AreEqual(Guid.Empty, queue.Dequeue());
             Assert.AreEqual(Guid.Empty, queue.Dequeue());
         }
-        #endregion
     }
 }

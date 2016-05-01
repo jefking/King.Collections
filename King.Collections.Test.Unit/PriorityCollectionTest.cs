@@ -9,7 +9,6 @@
     [TestFixture]
     public class PriorityCollectionTest
     {
-        #region Valid Cases
         [Test]
         public void PriorityCollectionEnumerate()
         {
@@ -68,6 +67,5 @@
             pc.Clear();
             Assert.AreEqual(0, pc.Count);
         }
-        #endregion
     }
 }

@@ -11,19 +11,17 @@
     {
         #region Error Cases
         [Test]
-        [ExpectedException(typeof(ArgumentNullException))]
         public void NullKeyAdd()
         {
             var tree = new Tree<string, string>();
-            tree.Add(null, "this is a test");
+            Assert.That(() => tree.Add(null, "this is a test"), Throws.TypeOf<ArgumentNullException>());
         }
 
         [Test]
-        [ExpectedException(typeof(ArgumentNullException))]
         public void NullFind()
         {
             var tree = new Tree<string, string>();
-            tree.Find(null);
+            Assert.That(() => tree.Find(null), Throws.TypeOf<ArgumentNullException>());
         }
         #endregion
 
