@@ -19,7 +19,8 @@
 
   "dependencies": {
     "King.Collections": "2.0.0-preview",
-    "NUnit": "3.0.0-rc-3"
+    "NUnit": "3.0.0-rc-3",
+    "NUnitLite": 
   },
 
   "commands": {

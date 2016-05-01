@@ -9,7 +9,6 @@
     [TestFixture]
     public class TreeTest
     {
-        #region Error Cases
         [Test]
         public void NullKeyAdd()
         {
@@ -23,9 +22,7 @@
             var tree = new Tree<string, string>();
             Assert.That(() => tree.Find(null), Throws.TypeOf<ArgumentNullException>());
         }
-        #endregion
 
-        #region Valid Cases
         [Test]
         public void Add()
         {
@@ -48,6 +45,5 @@
             Assert.AreEqual("this is 22", tree.Find(22), "Values don't match.");
             Assert.AreEqual("this is 88", tree.Find(88), "Values don't match.");
         }
-        #endregion
     }
 }
