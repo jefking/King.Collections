@@ -1,16 +1,14 @@
 ﻿namespace King.Collections.Test.Unit
 {
     using NUnit.Common;
-    using NUnit.Framework;
     using NUnitLite;
     using System;
-    using System.Reflection;
 
     public class Program
     {
-        public int Main(string[] args)
+        public static int Main(string[] args)
         {
-            return new AutoRun(typeof(Program).GetTypeInfo().Assembly)
+            return new AutoRun(typeof(Program).Assembly)
                 .Execute(args, new ExtendedTextWrapper(Console.Out), Console.In);
         }
     }
