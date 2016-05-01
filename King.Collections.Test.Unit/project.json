@@ -19,8 +19,7 @@
 
   "dependencies": {
     "King.Collections": "2.0.0-preview",
-    "NUnit": "3.0.0-rc-3",
-    "NUnitLite": 
+    "NUnitLite": "3.2.1"
   },
 
   "commands": {
@@ -28,7 +27,6 @@
   },
 
   "frameworks": {
-    "net35": { },
     "net45": { },
     "net451": { },
     "net452": { },
