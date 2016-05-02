@@ -18,7 +18,7 @@
   },
 
   "dependencies": {
-    "King.Collections": "2.0.0-preview",
+    "King.Collections": "2.0.1-preview",
     "NUnitLite": "3.2.1"
   },
 
@@ -32,8 +32,6 @@
     "net451": { },
     "net452": { },
     "net46": { },
-    "net461": { },
-    "dotnet5.4": { },
-    "dnxcore50": { }
+    "net461": { }
   }
 }
