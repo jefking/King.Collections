@@ -28,7 +28,7 @@
             IComparable ptr;
             var array = new IComparable[collection.Count];
             collection.CopyTo(array, 0);
-            for (var i = 0; i < array.LongLength; i++)
+            for (var i = 0; i < array.Length; i++)
             {
                 for (var j = 0; j <= i; j++)
                 {
