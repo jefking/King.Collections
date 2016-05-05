@@ -1,5 +1,5 @@
 ﻿{
-  "version": "2.0.2-preview",
+  "version": "2.0.3-preview",
   "title": "King.Collections",
   "description": "King.Collections Class Library",
   "summary": "Generic Collections and Sorting.",
@@ -14,10 +14,15 @@
   "language": "en-US",
 
   "frameworks": {
-  
-    "dotnet5.4": {
+    "dnx20": {
+      "frameworkAssemblies": {
+        "System.Core": { }
+      }
+    },
+    "dnxcore50": {
       "dependencies": {
         "System.Collections": "4.0.11-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
         "System.Runtime.InteropServices": "4.0.21-beta-23409",
         "System.Collections.NonGeneric": "4.0.1-beta-23516",
         "System.Runtime.Extensions": "4.0.11-beta-23409"

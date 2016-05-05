@@ -8,8 +8,7 @@
     {
         public static int Main(string[] args)
         {
-            return new AutoRun(typeof(Program).Assembly)
-                .Execute(args, new ExtendedTextWrapper(Console.Out), Console.In);
+            return 0;
         }
     }
 }

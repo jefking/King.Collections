@@ -18,7 +18,7 @@
   },
 
   "dependencies": {
-    "King.Collections": "2.0.2-preview",
+    "King.Collections": "2.0.3-preview",
     "NUnitLite": "3.2.1"
   },
 
@@ -27,12 +27,18 @@
   },
 
   "frameworks": {
-    "dotnet5.4": {
+    "dnx20": {
+      "frameworkAssemblies": {
+        "System.Core": { }
+      }
+    },
+    "dnxcore50": {
       "dependencies": {
-        "System.Collections": "4.0.11-beta-23516",
-        "System.Runtime.InteropServices": "4.0.21-beta-23409",
-        "System.Collections.NonGeneric": "4.0.1-beta-23516",
-        "System.Runtime.Extensions": "4.0.11-beta-23409"
+        "Microsoft.CSharp": "4.0.1-beta-23409",
+        "System.Collections": "4.0.11-beta-23409",
+        "System.Console": "4.0.0-beta-23409",
+        "System.Linq": "4.0.1-beta-23409",
+        "System.Threading": "4.0.11-beta-23409"
       }
     }
   }
