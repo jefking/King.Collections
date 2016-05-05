@@ -10,7 +10,7 @@
   "projectUrl": "https://github.com/jefking/King.Collections",
   "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
   "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
-  "releaseNotes": "More .NET versions supported",
+  "releaseNotes": "Rounding on landing a solid preview.",
   "language": "en-US",
 
   "compilationOptions": {
@@ -18,7 +18,7 @@
   },
 
   "dependencies": {
-    "King.Collections": "2.0.3-preview",
+    "King.Collections": "2.0.4-preview",
     "NUnitLite": "3.2.1"
   },
 
