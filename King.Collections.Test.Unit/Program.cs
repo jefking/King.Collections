@@ -11,9 +11,9 @@
             AutoRun ar;
 
 #if DNX20
-            ar new AutoRun().Execute(args);
+            ar = new AutoRun();
 #else
-            ar new AutoRun(typeof(Program).GetTypeInfo().Assembly);
+            ar = new AutoRun(typeof(Program).GetTypeInfo().Assembly);
 #endif
             var writer = new ExtendedTextWrapper(Console.Out);
             var reader = Console.In;
