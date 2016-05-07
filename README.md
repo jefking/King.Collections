@@ -22,4 +22,5 @@ View the wiki to learn how to use this.
 ### Frameworks
 + .NET 3.5
 + .NET Core
++ DNX 4.5.1
 + DNX Core
