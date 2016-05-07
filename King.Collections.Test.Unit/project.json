@@ -18,7 +18,7 @@
   },
 
   "dependencies": {
-    "King.Collections": "2.0.4-preview",
+    "King.Collections": "2.0.3-preview",
     "NUnitLite": "3.2.1"
   },
 
@@ -27,7 +27,7 @@
   },
 
   "frameworks": {
-    "dnx20": {
+    "net451": {
       "frameworkAssemblies": {
         "System.Core": { }
       }
