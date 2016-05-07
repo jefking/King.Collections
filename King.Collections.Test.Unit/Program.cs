@@ -10,7 +10,7 @@
         {
             AutoRun ar;
 
-#if DNX20
+#if NET35
             ar = new AutoRun();
 #else
             ar = new AutoRun(typeof(Program).GetTypeInfo().Assembly);

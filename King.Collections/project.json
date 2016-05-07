@@ -6,19 +6,22 @@
   "authors": [ "Jef King" ],
   "copyright": "Jef King",
   "owners": [ "Jef King" ],
-  "tags": [ "King.Collections Collection Collections Sort Sorting Bubble Quicksort Selection Shellsort Priority Queue Tree Node FiFo" ],
+  "tags": [ "King.Collections", "Collection", "Collections", "Sort", "Sorting", "Bubble", "Quicksort", "Selection", "Shellsort", "Priority", "Queue", "Tree", "Node", "FiFo" ],
   "projectUrl": "https://github.com/jefking/King.Collections",
   "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
   "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
   "releaseNotes": "More .NET versions supported: 3.5-4.6.1",
   "language": "en-US",
 
-  "frameworks": {
-    "dnx20": {
-      "frameworkAssemblies": {
-        "System.Core": { }
+  "configurations": {
+    "Release": {
+      "compilationOptions": {
+        "optimize": true
       }
-    },
+    }
+  },
+  "frameworks": {
+    "net35": { },
     "dnxcore50": {
       "dependencies": {
         "System.Collections": "4.0.11-beta-23516",
@@ -29,4 +32,4 @@
       }
     }
   }
-}
+  }
