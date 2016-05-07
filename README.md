@@ -20,4 +20,6 @@ PM> Install-Package King.Collections
 View the wiki to learn how to use this.
 
 ### Framework
-+ 2.0 and .NET Core
++ .NET 3.5
++ .NET Core
++ DNX Core
