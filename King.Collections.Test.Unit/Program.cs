@@ -4,6 +4,7 @@
     using NUnitLite;
     using System;
     using System.Reflection;
+
     public class Program
     {
         public static int Main(string[] args)
