@@ -2,43 +2,33 @@
   "version": "2.0.5-preview",
   "title": "King.Collections",
   "description": "King.Collections Class Library",
-  "summary": "Generic Collections and Sorting.",
   "authors": [ "Jef King" ],
   "copyright": "Jef King",
-  "owners": [ "Jef King" ],
-  "tags": [ "King.Collections", "Collection", "Collections", "Sort", "Sorting", "Bubble", "Quicksort", "Selection", "Shellsort", "Priority", "Queue", "Tree", "Node", "FiFo" ],
-  "projectUrl": "https://github.com/jefking/King.Collections",
-  "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
-  "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
-  "releaseNotes": "More .NET versions supported: 3.5-4.6.1",
+  "packOptions": {
+    "summary": "Generic Collections and Sorting.",
+    "owners": [ "Jef King" ],
+    "tags": [ "King.Collections", "Collection", "Collections", "Sort", "Sorting", "Bubble", "Quicksort", "Selection", "Shellsort", "Priority", "Queue", "Tree", "Node", "FiFo" ],
+    "projectUrl": "https://github.com/jefking/King.Collections",
+    "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
+    "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
+    "releaseNotes": "More .NET versions supported: 3.5-4.6.1"
+  },
   "language": "en-US",
 
   "configurations": {
     "Release": {
-      "compilationOptions": {
+      "buildOptions": {
         "optimize": true
       }
     }
   },
   "frameworks": {
     "net35": { },
-    "dnx451": {
-      "dependencies": {
-        "Microsoft.CSharp": "4.0.1-rc2-24027",
-        "System.Runtime.Extensions": "4.1.0-rc2-24027",
-        "System.Runtime.InteropServices": "4.1.0-rc2-24027"
-      }
-    },
     "netcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.1-rc2-24027",
         "System.Runtime.Extensions": "4.1.0-rc2-24027",
         "System.Runtime.InteropServices": "4.1.0-rc2-24027"
-      }
-    },
-    "dnxcore50": {
-      "dependencies": {
-        "Microsoft.CSharp": "4.0.1-rc2-24027"
       }
     }
   }
