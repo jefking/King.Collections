@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Extension Methods
@@ -64,7 +65,7 @@
             collection.CopyTo(array, 0);
 
             IComparable temp;
-            var stack = new Stack();
+            var stack = new Stack<object>();
             IComparable pivot;
             var pivotIndex = 0;
             var leftIndex = pivotIndex + 1;
