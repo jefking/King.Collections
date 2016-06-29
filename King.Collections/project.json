@@ -6,6 +6,8 @@
   "copyright": "Jef King",
   "packOptions": {
     "summary": "Generic Collections and Sorting.",
+    "authors": [ "Jef King" ],
+    "copyright": "Jef King",
     "owners": [ "Jef King" ],
     "tags": [ "King.Collections", "Collection", "Collections", "Sort", "Sorting", "Bubble", "Quicksort", "Selection", "Shellsort", "Priority", "Queue", "Tree", "Node", "FiFo" ],
     "projectUrl": "https://github.com/jefking/King.Collections",
