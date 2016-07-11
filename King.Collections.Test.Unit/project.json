@@ -7,6 +7,7 @@
     "King.Collections": "2.1.0",
     "System.Console": "4.0.0",
     "System.Runtime.Extensions": "4.1.0",
+    "NUnit": "3.4.1",
     "NUnitLite": "3.4.1"
   },
   "commands": {

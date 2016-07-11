@@ -13,7 +13,7 @@
     "projectUrl": "https://github.com/jefking/King.Collections",
     "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
     "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
-    "releaseNotes": ".NET Standard"
+    "releaseNotes": ".NET Standard, DNX Core"
   },
   "language": "en-US",
   "configurations": {
