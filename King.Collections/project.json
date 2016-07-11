@@ -24,13 +24,15 @@
     }
   },
   "frameworks": {
-    "netstandard1.1": { }
+    "dnxcore": {
+    }
   },
   "dependencies": {
     "Microsoft.CSharp": "4.0.1",
     "System.Collections": "4.0.11",
     "System.Reflection": "4.1.0",
     "System.Runtime.InteropServices": "4.1.0",
-    "System.Resources.ResourceManager": "4.0.1"
+    "System.Resources.ResourceManager": "4.0.1",
+    "System.Threading": "4.0.11"
   }
 }
