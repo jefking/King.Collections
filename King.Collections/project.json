@@ -24,6 +24,8 @@
     }
   },
   "frameworks": {
+    "netstandard1.1": {
+    },
     "dnxcore": {
     }
   },
