@@ -2,21 +2,18 @@
   "version": "2.0.1-*",
   "authors": [ "Jef King" ],
   "copyright": "Jef King",
-  "buildOptions": {
-    "emitEntryPoint": true
-  },
+
   "dependencies": {
     "King.Collections": "2.1.0",
-    "System.Reflection": "4.1.0",
-    "System.Threading": "4.0.11",
-    "Microsoft.CSharp": "4.0.1",
-    "System.Collections": "4.0.11"
+    "System.Console": "4.0.0",
+    "System.Runtime.Extensions": "4.1.0",
+    "NUnitLite": "3.4.1"
   },
   "commands": {
     "King.Collections.Test.Unit": "King.Collections.Test.Unit"
   },
   "frameworks": {
-    "netstandard1.1": {
+    "dnxcore": {
     }
   }
 }
