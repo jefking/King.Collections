@@ -3,6 +3,9 @@
   "authors": [ "Jef King" ],
   "copyright": "Jef King",
 
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
   "dependencies": {
     "King.Collections": "2.1.0",
     "NUnitLite": "3.4.1",

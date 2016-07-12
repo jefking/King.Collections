@@ -1,14 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{25D5A04B-9341-42FD-A888-0CB415F6AB81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFBA1E03-1F0F-488C-AA19-721742BA1875}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
-		RunTests.ps1 = RunTests.ps1
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "King.Collections", "King.Collections\King.Collections.xproj", "{641EC471-3996-4C1B-8142-64A4CAF58A9A}"
