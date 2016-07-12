@@ -15,6 +15,6 @@
     "King.Collections.Test.Unit": "King.Collections.Test.Unit"
   },
   "frameworks": {
-    "net45": {}
+    "net46": {}
   }
 }
