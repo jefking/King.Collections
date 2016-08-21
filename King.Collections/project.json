@@ -4,18 +4,18 @@
   "description": "King.Collections Class Library",
   "authors": [ "Jef King" ],
   "copyright": "Jef King",
+  "language": "en-US",
   "packOptions": {
     "summary": "Generic Collections and Sorting.",
+    "releaseNotes": ".NET Standard 1.1",
     "authors": [ "Jef King" ],
     "copyright": "Jef King",
     "owners": [ "Jef King" ],
     "tags": [ "King.Collections", "Collection", "Collections", "Sort", "Sorting", "Bubble", "Quicksort", "Selection", "Shellsort", "Priority", "Queue", "Tree", "Node", "FiFo" ],
     "projectUrl": "https://github.com/jefking/King.Collections",
     "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
-    "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png",
-    "releaseNotes": ".NET Standard 1.1"
+    "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png"
   },
-  "language": "en-US",
   "configurations": {
     "Release": {
       "buildOptions": {
