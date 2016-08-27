@@ -7,13 +7,13 @@
     "emitEntryPoint": true
   },
 
+  "frameworks": {
+    "net462": {}
+  },
+
   "dependencies": {
     "King.Collections": "2.1.0",
     "NUnitLite": "3.4.1",
     "System.Runtime": "4.0.20"
-  },
-
-  "frameworks": {
-    "net46": {}
   }
 }
