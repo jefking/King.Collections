@@ -6,14 +6,13 @@
   "buildOptions": {
     "emitEntryPoint": true
   },
+
   "dependencies": {
     "King.Collections": "2.1.0",
     "NUnitLite": "3.4.1",
-    "System.Runtime": "4.0.0"
+    "System.Runtime": "4.0.20"
   },
-  "commands": {
-    "King.Collections.Test.Unit": "King.Collections.Test.Unit"
-  },
+
   "frameworks": {
     "net46": {}
   }
