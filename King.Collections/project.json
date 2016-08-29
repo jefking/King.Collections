@@ -1,5 +1,5 @@
 ﻿{
-  "version": "2.1.0",
+  "version": "2.1.1",
   "title": "King.Collections",
   "description": "King.Collections Class Library",
   "authors": [ "Jef King" ],
@@ -16,6 +16,7 @@
     "licenseUrl": "https://github.com/jefking/King.Collections/blob/master/LICENSE",
     "iconUrl": "https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png"
   },
+
   "configurations": {
     "Release": {
       "buildOptions": {
@@ -23,10 +24,12 @@
       }
     }
   },
+
   "frameworks": {
-    "netstandard1.1": {
-    }
+    "netstandard1.1": {},
+    "netcoreapp1.0": {}
   },
+
   "dependencies": {
     "Microsoft.CSharp": "4.0.1",
     "System.Collections": "4.0.11",
