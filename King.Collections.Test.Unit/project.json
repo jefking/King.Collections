@@ -13,7 +13,7 @@
 
   "dependencies": {
     "King.Collections": "2.1.3",
-    "NUnitLite": "3.4.1",
+    "NUnitLite": "3.5.0",
     "System.Runtime": "4.0.20"
   }
 }

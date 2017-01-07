@@ -29,29 +29,73 @@
   "frameworks": {
     "netstandard1.1": {
       "dependencies": {
-        "Microsoft.CSharp": "4.0.1",
-        "System.Collections": "4.0.11",
-        "System.Reflection": "4.1.0",
-        "System.Runtime.InteropServices": "4.1.0",
-        "System.Resources.ResourceManager": "4.0.1",
-        "System.Threading": "4.0.11"
       }
     },
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.CSharp": "4.0.1",
-        "System.Collections": "4.0.11",
-        "System.Reflection": "4.1.0",
-        "System.Runtime.InteropServices": "4.1.0",
-        "System.Resources.ResourceManager": "4.0.1",
-        "System.Threading": "4.0.11"
+        "Microsoft.CSharp": "4.3.0",
+        "System.Threading": "4.3.0"
       }
     },
-    "net45": {},
-    "net451": {},
-    "net452": {},
-    "net46": {},
-    "net461": {},
-    "net462": {}
+    "net45": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    },
+    "net451": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    },
+    "net452": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    },
+    "net46": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    },
+    "net461": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    },
+    "net462": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.3.0",
+        "System.Collections": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Threading": "4.3.0"
+      }
+    }
   }
 }
