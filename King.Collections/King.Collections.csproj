@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>King.Collections Class Library</Description>
+    <Copyright>Jef King</Copyright>
+    <AssemblyTitle>King.Collections</AssemblyTitle>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <VersionPrefix>2.1.5</VersionPrefix>
+    <Authors>Jef King</Authors>
+    <TargetFrameworks>netstandard1.1;netcoreapp1.0;net46;net461;net462;net47;net471</TargetFrameworks>
+    <AssemblyName>King.Collections</AssemblyName>
+    <PackageId>King.Collections</PackageId>
+    <PackageTags>King.Collections;Collection;Collections;Sort;Sorting;Bubble;Quicksort;Selection;Shellsort;Priority;Queue;Tree;Node;FiFo</PackageTags>
+    <PackageReleaseNotes>.NET versions</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/jefking/King.Collections/master/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/jefking/King.Collections</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/jefking/King.Collections/blob/master/LICENSE</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Reflection" Version="4.3.0" />
+    <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net46' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

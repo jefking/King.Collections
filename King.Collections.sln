@@ -1,16 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFBA1E03-1F0F-488C-AA19-721742BA1875}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "King.Collections", "King.Collections\King.Collections.xproj", "{641EC471-3996-4C1B-8142-64A4CAF58A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "King.Collections", "King.Collections\King.Collections.csproj", "{641EC471-3996-4C1B-8142-64A4CAF58A9A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "King.Collections.Test.Unit", "King.Collections.Test.Unit\King.Collections.Test.Unit.xproj", "{551C1857-FD31-415F-9CAC-45A6C5D227EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "King.Collections.Test.Unit", "King.Collections.Test.Unit\King.Collections.Test.Unit.csproj", "{551C1857-FD31-415F-9CAC-45A6C5D227EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04415EFE-2BD3-4CF3-AD9A-125F5B182F67}
 	EndGlobalSection
 EndGlobal
