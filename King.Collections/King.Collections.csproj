@@ -5,9 +5,9 @@
     <Copyright>Jef King</Copyright>
     <AssemblyTitle>King.Collections</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <VersionPrefix>2.1.5</VersionPrefix>
+    <VersionPrefix>2.2.0</VersionPrefix>
     <Authors>Jef King</Authors>
-    <TargetFrameworks>netstandard1.1;netcoreapp1.0;net46;net461;net462;net47;net471</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;netcoreapp1.0</TargetFrameworks>
     <AssemblyName>King.Collections</AssemblyName>
     <PackageId>King.Collections</PackageId>
     <PackageTags>King.Collections;Collection;Collections;Sort;Sorting;Bubble;Quicksort;Selection;Shellsort;Priority;Queue;Tree;Node;FiFo</PackageTags>
