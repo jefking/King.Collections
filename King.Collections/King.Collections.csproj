@@ -6,9 +6,9 @@
     <AssemblyName>King.Collections</AssemblyName>
     <PackageId>King.Collections</PackageId>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <Version>2.2.0</Version>
-    <AssemblyVersion>2.2.0</AssemblyVersion>
-    <FileVersion>2.2.0</FileVersion>
+    <Version>2.2.1</Version>
+    <AssemblyVersion>2.2.1</AssemblyVersion>
+    <FileVersion>2.2.1</FileVersion>
     <Authors>Jef King</Authors>
     <Copyright>© Jef King 2019</Copyright>
     <TargetFrameworks>netstandard1.1;netcoreapp1.0</TargetFrameworks>
