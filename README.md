@@ -18,3 +18,6 @@ PM> Install-Package King.Collections
 
 ### [Wiki](https://github.com/jefking/King.Collections/wiki)
 View the wiki to learn how to use this.
+
+### CI
+[![Build status](https://dev.azure.com/jefkin/oss/_apis/build/status/King.Collections)](https://dev.azure.com/jefkin/oss/_build/latest?definitionId=15)
