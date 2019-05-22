@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <Copyright>Jef King</Copyright>
-    <VersionPrefix>2.0.3</VersionPrefix>
+    <VersionPrefix>2.1.0</VersionPrefix>
     <Authors>Jef King</Authors>
-    <TargetFramework>net462</TargetFramework>
+    <TargetFrameworks>netcoreapp2.2</TargetFrameworks>
     <AssemblyName>King.Collections.Test.Unit</AssemblyName>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <PackageId>King.Collections.Test.Unit</PackageId>
     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
@@ -20,16 +20,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\King.Collections\King.Collections.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="NUnitLite" Version="3.9.0" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
   </ItemGroup>
-
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
-    <Reference Include="System" />
-    <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-
 </Project>
