@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "King.Collections", "King.Collections\King.Collections.csproj", "{641EC471-3996-4C1B-8142-64A4CAF58A9A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "King.Collections.Test.Unit", "King.Collections.Test.Unit\King.Collections.Test.Unit.csproj", "{551C1857-FD31-415F-9CAC-45A6C5D227EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "King.Collections.Tests.Unit", "King.Collections.Tests.Unit\King.Collections.Tests.Unit.csproj", "{551C1857-FD31-415F-9CAC-45A6C5D227EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
